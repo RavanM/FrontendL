@@ -1,0 +1,29 @@
+*
+Body{
+    background-image: url(Bckr.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  
+}
+.Note{
+    text-align: center;
+    padding-top: 18rem;
+    color: white;
+    
+}
+h1, p{
+    margin: 0%;
+}
+a{
+    background-color: white;
+    color: gray;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+p{
+    margin-bottom: 2%;
+}

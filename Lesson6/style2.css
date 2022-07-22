@@ -1,0 +1,36 @@
+body{
+    background-color: #305534;
+}
+.FirstDiv{
+   
+    display: inline-block;
+    float: left;
+    
+    
+}
+.SecondDiv{
+  
+    display: inline-block;
+}
+.Every{
+    
+    text-align: center;
+    margin: 0% 18%;
+}
+h1,h4{
+    color: white;
+}
+p{
+    color: #C9D6C2;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #007E0E;
+    padding: 3px 6px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 20px;
+}
