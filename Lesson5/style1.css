@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+h1{
+    margin: 5% 0%;
+    color: #1A213D;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+div{
+    display: inline-block;
+    width: 15%;
+}
+p{
+    margin-top: 6%;
+    font-size: 140%;
+}

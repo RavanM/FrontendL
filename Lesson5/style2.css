@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    margin-top: 3%;
+    color: #1A2148;
+}
+.Icon{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+
+h4{
+    font-size: 140%;
+    color: #1A2148;
+}
+i{
+    background-color: #304CBB;
+    border-radius: 100%;
+    padding: 20px;
+    color: white;
+}
+.Find, .Rev, .Make{
+    display: inline-block;
+    width: 33%;
+    margin-top: 5%;
+}
