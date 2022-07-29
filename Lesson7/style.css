@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #100028;
+}
+hr{
+    width: 6%;
+    background-color: #00BFE7;
+    border-color: transparent;
+}
+span,h4,h1,a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: gray;
+}
+
+.parent{
+    display: flex;
+    
+    margin: 3% 5%;
+    
+}
+.left{
+    width: 58%;
+    
+    
+}
+
+i{
+    color:white;
+    border: 1px #00BFE7 solid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.motion{
+    
+    width: 58%;
+}
+a{
+    display: inline-block;
+    margin-top: 20%;
+    padding: 10px;
+    border: 1px #00BFE7 solid;
+}
+h4{
+    margin-bottom: 10px;
+}
+
+

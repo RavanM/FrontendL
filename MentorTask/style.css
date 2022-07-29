@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    display: inline-block;
+    font-size: 180%;
+}
+div{
+    display: inline-block;
+}
+.coursel-header{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: 3% 5%;
+}
+.coursel-header a{
+    text-decoration: none;
+    color: #857d7d;
+}
+.coursel-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.card{
+    border: 1px #c9c2c2 solid;
+    width: 18%;
+}
+.card-body{
+    text-align: center;
+    margin-left: 30%;
+}
+img{
+    height: 250px; 
+    display: inline-block;
+}
+.card-body a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+}
+span{
+    display: block;
+    padding-bottom: 5px;
+}
+strong{
+    color: red;
+}
+small{
+    text-decoration: line-through;
+    color: gray;
+}
+.card-body div{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    margin: 10px;
+    background-color: #c9c2c2;
+    border-color: transparent;
+}
+
