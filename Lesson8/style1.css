@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    align-items: baseline;
+}
+h1{
+    font-weight: bolder;
+    font-size: 190%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+i{
+    margin: 0px 10px;
+}
