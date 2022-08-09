@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .upper-header {
+  margin: 1%;
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+body .upper-header a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 5px;
+}
+body .upper-header p {
+  color: #807E85;
+}
+body .upper-header span {
+  color: gray;
+}
+body .upper-header .options:hover .lang {
+  display: block;
+}
+body .upper-header .options2:hover .currency {
+  display: block;
+}
+body .upper-header .options {
+  position: relative;
+  display: inline-block;
+}
+body .upper-header .options .lang {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+body .upper-header .options .lang a {
+  color: black;
+  padding: 3px 5px;
+  text-decoration: none;
+  display: block;
+}
+body .upper-header .options2 {
+  position: relative;
+  display: inline-block;
+}
+body .upper-header .options2 .currency {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+body .upper-header .options2 .currency a {
+  color: black;
+  padding: 3px 5px;
+  text-decoration: none;
+  display: block;
+}
+body .middle-header {
+  margin: 1% 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .middle-header .search {
+  border: 1px green solid;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+body .middle-header .search input {
+  border-style: none;
+}
+body .middle-header .search a:hover {
+  color: #3BB77E;
+}
+body .middle-header .search a {
+  color: black;
+}
+body .middle-header a {
+  margin-right: 8px;
+  text-decoration: none;
+  color: gray;
+}
+body .middle-header a i {
+  color: black;
+}
+body .lower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .lower-header .catagories {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+body .lower-header .catagories a {
+  color: white;
+  background-color: #3BB77E;
+  text-decoration: none;
+  padding: 8px 25px;
+  border-radius: 3px;
+}
+body .lower-header .directions {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+body .lower-header .directions a:hover {
+  color: #3BB77E;
+}
+body .lower-header .directions a {
+  color: black;
+  text-decoration: none;
+}
+body .lower-header .directions i {
+  color: #3BB77E;
+}
+body .lower-header .info {
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  margin-left: 30px;
+}
+body .lower-header .info .span1 {
+  position: absolute;
+  top: 0%;
+}/*# sourceMappingURL=style1.css.map */
