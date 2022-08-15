@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 8%;
+}
+header .top-nav .left {
+  width: 30%;
+  color: #777;
+  font-size: 15px;
+}
+header .top-nav .right {
+  width: 70%;
+  text-align: right;
+}
+header .top-nav .right li {
+  display: inline;
+}
+header .top-nav .right li a {
+  text-decoration: none;
+  color: #777;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 19px;
+}
+header .bottom-nav {
+  background-color: #F8F8F8;
+  padding: 0% 8%;
+  display: flex;
+  align-items: center;
+}
+header .bottom-nav .icon {
+  width: 25%;
+}
+header .bottom-nav .icon img {
+  vertical-align: middle;
+  width: 100px;
+  height: 80px;
+}
+header .bottom-nav .icon span {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+}
+header .bottom-nav .directions {
+  width: 50%;
+}
+header .bottom-nav .directions .main-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header .bottom-nav .directions .main-ul a:hover {
+  color: blue;
+}
+header .bottom-nav .directions .main-ul .ul-li:hover .drpdown {
+  display: block;
+}
+header .bottom-nav .directions .main-ul .ul-li {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  position: relative;
+}
+header .bottom-nav .directions .main-ul li {
+  display: inline;
+  padding: 0% 10px;
+}
+header .bottom-nav .directions .main-ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .bottom-nav .directions .main-ul li .drpdown {
+  border: 1px solid transparent;
+  position: absolute;
+  width: 200px;
+  background-color: white;
+  display: none;
+  top: 80px;
+}
+header .bottom-nav .directions .main-ul li .drpdown li {
+  display: block;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+header .bottom-nav .directions .main-ul li .drpdown li:last-child {
+  border-bottom: none;
+}
+header .bottom-nav .buttons {
+  width: 25%;
+}
+header .bottom-nav .buttons ul {
+  display: flex;
+  align-items: center;
+}
+header .bottom-nav .buttons ul hr {
+  display: inline-block;
+  height: 80px;
+  width: 1px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(218, 214, 214);
+  border-color: transparent;
+}
+header .bottom-nav .buttons ul li {
+  display: inline;
+}
+header .bottom-nav .buttons ul li a {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
