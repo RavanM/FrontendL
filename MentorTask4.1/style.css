@@ -1,0 +1,98 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body section .all {
+  justify-content: space-between;
+  display: flex;
+  margin: 2% 5%;
+}
+body section .all .images {
+  width: 34%;
+}
+body section .all .images .big-image {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+body section .all .images .big-image p {
+  display: inline;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+body section .all .images .small-images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+}
+body section .all .images .small-images .image-box {
+  height: 100%;
+  width: 100px;
+  border: 1px solid #3DB57D;
+  border-radius: 5px;
+  background-color: aqua;
+}
+body section .all .info {
+  width: 34%;
+}
+body section .all .info button {
+  color: #B1B2B3;
+  background-color: white;
+  border: none;
+}
+body section .all .info button:focus {
+  background-color: #3DB57D;
+  padding: 2px 4px;
+  border-radius: 5px;
+  color: white;
+}
+body section .all .info .links {
+  margin-top: 30px;
+}
+body section .all .info .spans {
+  display: inline-block;
+  flex-direction: column;
+}
+body section .all .info .spans span {
+  display: flex;
+}
+body section .all .boxes {
+  text-align: center;
+  width: 22%;
+}
+body section .all .boxes .category {
+  width: 100%;
+  border: 1px solid gray;
+  position: relative;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px gray;
+}
+body section .all .boxes .category h2 {
+  text-align: left;
+  font-size: 140%;
+}
+body section .forward {
+  display: inline-block;
+  height: 30px;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+body section .forward a {
+  display: block;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
