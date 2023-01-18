@@ -1,0 +1,11 @@
+.mid{
+    background-color: white;
+    min-width: 500px;
+  
+    align-items: center;
+    justify-content: center;
+}
+#delet{
+    float: right;
+   margin-right: 10px;
+}

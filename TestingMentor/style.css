@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+.box{
+    width: 23%;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+@media (min-width:992px) and (max-width:1200px){
+    .box{
+        width: 31%;
+        height: 100px;
+        background-color: red;
+        margin: 5px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .box{
+        width: 48%;
+        height: 100px;
+        background-color: red;
+        margin: 5px;
+    }
+}
+@media (min-width:586px) and (max-width:768px){
+    .box{
+        width: 98%;
+        height: 100px;
+        background-color: red;
+        margin: 5px;
+    }
+}

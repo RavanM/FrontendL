@@ -1,0 +1,52 @@
+.PostIMG{
+    height: 300px;
+    width: 200px;
+   
+}
+.firstDIV{
+    
+}
+.A{
+    text-decoration: none;
+    background-color: #148A9D;
+    color: white;
+    border-radius: 3px;
+    
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.P1{
+    margin-right: 15px;
+}
+.secDIV{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+i{
+    color: gray;
+}
+.time{
+    margin-right: 20px;
+}
+.comm{
+    margin-left: 1px;
+}
+.Minii{
+    margin-top: 10px;
+}
+.Common{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-right: 86.75%;
+    background-color: white;
+}
+body{
+    background-color: darkolivegreen;
+}

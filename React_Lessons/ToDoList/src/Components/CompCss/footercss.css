@@ -1,0 +1,23 @@
+.submit{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 0px;
+    margin-top: 8%;
+
+}
+.inputarea{
+    padding: 20px;
+}
+.inputarea input{
+    border-radius: 5px;
+    border-color: beige;
+    padding: 10px 20px;
+}
+.inputarea button{
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: crimson;
+    border-style: none;
+    padding: 10px 20px;    
+    font-size: 100%;
+}

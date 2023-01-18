@@ -1,0 +1,13 @@
+.photos{
+    display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+    margin: auto;
+    justify-content: space-evenly;   
+}
+.photos img{
+    width: 400px;
+}
+.photos h2{
+    width: 400px;
+}

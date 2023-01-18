@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+body nav .container .navbar {
+  margin: 2% 0%;
+  display: flex;
+  justify-content: space-between;
+}
+body nav .container .navbar .links ul {
+  display: flex;
+  list-style: none;
+}
+body nav .container .navbar .links ul li {
+  margin-right: 10px;
+}
+body nav .container .navbar .links ul li a:hover {
+  color: #ec5b53;
+}
+body nav .container .navbar .links ul li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
